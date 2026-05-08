@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Portfolio</title>
+
+  <style>
+    /* ===== CSS STYLE 1: BODY ===== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    /* ===== CSS STYLE 2: HEADER ===== */
+    header {
+      background: linear-gradient(to right, #0f172a, #1e3a8a);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    /* ===== CSS STYLE 3: PROFILE IMAGE ===== */
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* ===== CSS STYLE 4: SECTION CARD ===== */
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 25px;
+      width: 85%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* EXTRA STYLING */
+    h2 {
+      color: #1e3a8a;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+
+    .btn {
+      background: #1e3a8a;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0f172a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #0f172a;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>MY  Name is Maryam Umar Baba</h1>
+    <p>Web Developer</p>
+
+    <!-- YOUR IMAGE -->
+    <img src="images/photo.jpg" alt="Profile Image" class="profile-img">
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a professional web developer passionate about creating
+      modern and responsive websites using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>✔ HTML</li>
+      <li>✔ CSS</li>
+      <li>✔ JavaScript</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="card">
+    <h2>Projects</h2>
+    <p>Portfolio Website</p>
+    <p>E-Commerce Website</p>
+    <p>Bussiness Landing Page </p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="card">
+    <h2>Contact</h2>
+    <p>Emial maryam.baba@fellows.ahyel.org</p>
+    <p>Phone: +2348069099796</p>
+
+    <!-- JAVASCRIPT BUTTON -->
+    <button class="btn" onclick="showMessage()">
+      Click Me
+    </button>
+  </section>
+
+  <footer>
+    <p>© 2026 Maryam Umar baba Portfolio</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // JavaScript Function
+    function showMessage() {
+      alert("Thank you for visiting my portfolio website!");
+    }
+  </script>
+
+</body>
+</html>
